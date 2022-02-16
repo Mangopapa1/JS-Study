@@ -10,19 +10,17 @@
 </head>
 
 <body>
-    <h1>Mango Photo</h1>
+    <h1>Mango Photos</h1>
     <div class="container">
-            <div class="btn">
-                <button class="prev">prev</button>
-                <button class="next">next</button>
-            </div>
-        <ul>
-            <li><img src="img/IMG_0003.PNG" alt="망고1"></li>
-            <li><img src="img/IMG_0008.PNG" alt="망고2"></li>
-            <li><img src="img/IMG_0009.PNG" alt="망고3"></li>
-            <li><img src="img/KakaoTalk_Photo_2021-12-17-17-58-21.jpeg" alt="망고4"></li>
-            <li><img src="img/mango1.jpg" alt="망고5"></li>
-        </ul>
+        <div class="slides">
+            <img src="img/IMG_0003.PNG" alt="망고1" id="first">
+            <img src="img/IMG_0008.PNG" alt="망고2">
+            <img src="img/IMG_0009.PNG" alt="망고3">
+            <img src="img/KakaoTalk_Photo_2021-12-17-17-58-21.jpeg" alt="망고4">
+            <img src="img/mango1.jpg" alt="망고5" id="last">
+        </div>
+        <button class="prev">prev</button>
+        <button class="next">next</button>
     </div>
     <script src="js/script.js"></script>
 </body>
